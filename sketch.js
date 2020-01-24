@@ -21,10 +21,10 @@ function draw() {
     text(m, 10, 60);
     fill(100);
     text(s, 10, 90);
-      
+    
     let mapSec = map(s,0,60,0,360);
     let mapMin = map(m,0,60,0,360);
-    let mapHr = map(h,0,23,0,360);
+    let mapHr = map(h,0,24,0,360);
 
     translate(400,300);
     rotate(3*HALF_PI);
